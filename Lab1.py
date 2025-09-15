@@ -1,16 +1,17 @@
 def hello_world():
-    print ("Hello, World!")
-  
-    hello_world()
+    print("Hello, World!")
 
 def input_output():
-    name = input ("Enter your name")
-    age = int(input ("Enter your age: "))
-    height= float(input("Enter your height:" ))
-
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    height = float(input("Enter your height: "))
     print(f"Hello, {name}!")
     print(f"You are {age} years old.")
     print(f"Your height is {height} meters.")
-    
-input_output()
+
+if __name__ == "__main__":
+    hello_world()
+    input_output()
+
+
 
